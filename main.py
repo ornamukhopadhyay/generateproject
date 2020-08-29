@@ -1,8 +1,7 @@
 import random
 from flask import Flask, render_template
 
-#should we integrate this program into a website?
-# might take too much time 
+#integration into a website would take too long, could not do it right now
 
 
 print(
