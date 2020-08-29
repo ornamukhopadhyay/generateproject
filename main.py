@@ -144,12 +144,12 @@ elif enter1 == "mathematics":
             print(choice)
         elif enter3 == "analytical geometry":
             print("Awesome! Here are some research project ideas.")
-            links = {1:"https://faculty.math.illinois.edu/~mjunge/40216/Hvidsten.pdf", 2:"https://demonstrations.wolfram.com/topic.html?topic=Analytic+Geometry&limit=20", 3:"https://www.youtube.com/watch?v=1Mg97CoaWwg", 4:"https://encyclopedia2.thefreedictionary.com/analytical+geometry", 5:""}
+            links = {1:"https://faculty.math.illinois.edu/~mjunge/40216/Hvidsten.pdf", 2:"https://demonstrations.wolfram.com/topic.html?topic=Analytic+Geometry&limit=20", 3:"https://www.youtube.com/watch?v=1Mg97CoaWwg", 4:"https://encyclopedia2.thefreedictionary.com/analytical+geometry",5:"https://www.juliantrubin.com/fairprojects/mathematics/geometry.html"}
             choice = random.choice(list(links.values()))
             print(choice)
         elif enter3 == "projective geometry":
             print("Awesome! Here are some research project ideas.")
-            links = {1:"", 2:"", 3:"", 4:"", 5:""}
+            links = {1:"https://demonstrations.wolfram.com/topic.html?topic=projective+geometry&limit=20", 2:"https://mste.illinois.edu/dildine/classes/ci499fall04/final.doc", 3:"https://www.h-its.org/projects/projective-geometry-transformations-of-four-flags/", 4:"https://www.youtube.com/watch?v=qlAgviCoJv0", 5:"http://www.maths.dur.ac.uk/users/anna.felikson/Projects/projective/proj.html"}
             choice = random.choice(list(links.values()))
             print(choice)
         elif enter3 == "differential geometry":
@@ -159,12 +159,12 @@ elif enter1 == "mathematics":
             print(choice)
         elif enter3 == "non-euclidean geometry":
             print("Awesome! Here are some research project ideas.")
-            links = {1:"https://faculty.math.illinois.edu/~mjunge/40216/Hvidsten.pdf", 2:"http://faculty.gordonstate.edu/gclement/Math3301/NonEuclidean%20Geometries_Project.pdf", 3:"http://www.science4all.org/article/non-euclidean-geometry-and-map-making/", 4:"", 5:""}
+            links = {1:"https://faculty.math.illinois.edu/~mjunge/40216/Hvidsten.pdf", 2:"http://faculty.gordonstate.edu/gclement/Math3301/NonEuclidean%20Geometries_Project.pdf", 3:"http://www.science4all.org/article/non-euclidean-geometry-and-map-making/", 4:"https://mathstat.slu.edu/escher/index.php/Non-Euclidean_Art_Project", 5:"https://www.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/non_Euclid_construction/index.html"}
             choice = random.choice(list(links.values()))
             print(choice)
         elif enter3 == "topology":
             print("Awesome! Here are some research project ideas.")
-            links = {1:"", 2:"", 3:"", 4:"", 5:""}
+            links = {1:"http://homepage.math.uiowa.edu/~idarcy/AT/project.html", 2:"http://topology.eecs.umich.edu/", 3:"https://www.youtube.com/watch?v=nI4j_IE87Xo", 4:"https://www.sciencebuddies.org/science-fair-projects/project-ideas/Math_p030/pure-mathematics/topologies", 5:"https://www.juliantrubin.com/fairprojects/mathematics/miscellany.html"}
             choice = random.choice(list(links.values()))
             print(choice)
         else:
@@ -174,24 +174,24 @@ elif enter1 == "mathematics":
             "Cool! Which field of Trigonometry? Answer: Core, Plane, Spherical, Analytical? "
         )
         enter3 = enter3.lower()
-        if enter3 == "core":
+        if enter3 == "plane":
             print("Awesome! Here are some research project ideas.")
-            links = {1:"", 2:"", 3:"", 4:"", 5:""}
+            links = {1:"https://www.mathalino.com/reviewer/plane-trigonometry", 2:"http://fs.unm.edu/ProblemsGeomTrig-en.pdf", 3:"https://quod.lib.umich.edu/u/umhistmath/ABN8205.0001.001?rgn=main;view=fulltext", 4:"https://www.cemc.uwaterloo.ca/contests/euclid_eWorkshop/eew_ps4.pdf", 5:"https://www.math.txstate.edu/resources-student/mathcats/course/1317.html"}
             choice = random.choice(list(links.values()))
             print(choice)
-        elif enter3 == "plane":
+        elif enter3 == "core":
             print("Awesome! Here are some research project ideas.")
-            links = {1:"", 2:"", 3:"", 4:"", 5:""}
+            links = {1:"https://www.khanacademy.org/commoncore/grade-HSF-F-TF", 2:"https://www.varsitytutors.com/trigonometry-practice-tests"}
             choice = random.choice(list(links.values()))
             print(choice)
         elif enter3 == "spherical":
             print("Awesome! Here are some research project ideas.")
-            links = {1:"", 2:"", 3:"", 4:"", 5:""}
+            links = {1:"https://mathworld.wolfram.com/SphericalTrigonometry.html", 2:"https://www.youtube.com/watch?v=hcXbLRPq5vc&list=PLSFxG38qlzCmZ7BrhnEE5I5ZeQdGwdMdm&index=87", 3:"https://www.math.stonybrook.edu/~tony/archive/hon101s08/spher-trig.html", 4:"https://kpknudson.com/blog/2013/11/27/spherical-trigonometry", 5:"http://jwilson.coe.uga.edu/EMAT6680Fa2013/Lively/Spherical%20Triangles/Solving_Spherical_Triangles.pdf"}
             choice = random.choice(list(links.values()))
             print(choice)
         elif enter3 == "analytical":
             print("Awesome! Here are some research project ideas.")
-            links = {1:"", 2:"", 3:"", 4:"", 5:""}
+            links = {1:"https://www.profrobbob.com/pre-calculus/analytic-trigonometry-and-trig-proofs", 2:"https://www.slcc.edu/math/docs/oer-trigonometry.pdf", 3:"https://www.ck12.org/book/ck-12-college-precalculus/section/8.7/", 4:"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2695326/", 5:"https://hal.archives-ouvertes.fr/hal-01337947/document"}
             choice = random.choice(list(links.values()))
             print(choice)
         else:
@@ -259,4 +259,5 @@ elif enter1 == "mathematics":
 
     else:
         print("I'm sorry; please try again.")
-
+else:
+    print("I'm sorry; please try again.")
