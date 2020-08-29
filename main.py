@@ -167,7 +167,7 @@ elif enter1 == "mathematics":
             links = {1:"http://homepage.math.uiowa.edu/~idarcy/AT/project.html", 2:"http://topology.eecs.umich.edu/", 3:"https://www.youtube.com/watch?v=nI4j_IE87Xo", 4:"https://www.sciencebuddies.org/science-fair-projects/project-ideas/Math_p030/pure-mathematics/topologies", 5:"https://www.juliantrubin.com/fairprojects/mathematics/miscellany.html"}
             choice = random.choice(list(links.values()))
             print(choice)
-        else:
+        else: 
             print("I'm sorry; please try again.")
     elif enter2 == "trigonometry":
         enter3 = input(
