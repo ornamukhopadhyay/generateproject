@@ -195,7 +195,7 @@ elif enter1 == "mathematics":
             print(choice)
         else:
             print("I'm sorry; please try again.")
-    elif enter2 == "Calculus":
+    elif enter2 == "calculus":
         enter3 = input(
             "Cool! Which field of calculus? Answer: Differential, Integral? ")
         enter3 = enter3.lower()
